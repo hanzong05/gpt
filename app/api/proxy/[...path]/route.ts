@@ -1,5 +1,5 @@
 // app/api/proxy/[...path]/route.ts
-const API_BASE = 'https://gptmddlwr-git-main-hanz-pillervas-projects.vercel.app';
+const API_BASE = 'https://aimddlwr.vercel.app/';
 
 export async function POST(request: Request, { params }: { params: Promise<{ path: string[] }> }) {
   const resolvedParams = await params;
